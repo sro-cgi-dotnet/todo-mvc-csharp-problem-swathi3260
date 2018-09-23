@@ -9,7 +9,7 @@ namespace TodoApi1.Models{
         
         // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlite("Filename=./Notes.db");
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
-            optionsBuilder.UseSqlServer(@"Server=.\sqlexpress;Database=NoteDb;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=.\sqlexpress;Database=NoteDb_1;Trusted_Connection=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder){
