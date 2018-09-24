@@ -10,5 +10,6 @@ namespace TodoApi1.Models{
 
         bool PutNote(int id, Note note);
         bool DeleteNote(int id);
+        List<Note> RetrieveNote(string PlainText, string Title);
     }
 }

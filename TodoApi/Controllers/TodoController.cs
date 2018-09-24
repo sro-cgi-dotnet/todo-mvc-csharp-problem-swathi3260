@@ -44,6 +44,20 @@ namespace TodoApi1.Controllers
             }
         }
 
+        public ActionResult<Note> Get(string text,[FromQuery] string type)
+        {
+            List<Note> listWithText = dRepo.RetrieveNote(text, type);
+            if(listWithText == null){
+                return BadRequest($"Type : {type} or Text : {text}  is invalid.");
+            }
+            else if(listWithText.Count == 0){
+                return NotFound($"Notes with {type} = {text} not found.");
+            }
+            else{
+                return Ok(listWithText);
+            }
+        }
+
         // POST api/values
         [HttpPost]
         public IActionResult Post([FromBody] Note note)

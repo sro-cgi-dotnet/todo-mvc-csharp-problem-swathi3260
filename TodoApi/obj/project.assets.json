@@ -11832,11 +11832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Administrator\\Desktop\\TodoApi1\\TodoApi1.csproj",
+      "projectUniqueName": "c:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoApi\\TodoApi1.csproj",
       "projectName": "TodoApi1",
-      "projectPath": "c:\\Users\\Administrator\\Desktop\\TodoApi1\\TodoApi1.csproj",
+      "projectPath": "c:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoApi\\TodoApi1.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Administrator\\Desktop\\TodoApi1\\obj\\",
+      "outputPath": "c:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
