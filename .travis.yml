@@ -9,4 +9,4 @@ mono: none
 dotnet: 2.1
 script:
   - dotnet restore
-  - dotnet test todo-mvc-csharp-problem-swathi3260\TodoTests
+  - dotnet test TodoTests
