@@ -1,0 +1,17 @@
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\TodoTests.deps.json
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\TodoTests.runtimeconfig.json
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\TodoTests.runtimeconfig.dev.json
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\TodoTests.dll
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\TodoTests.pdb
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\TodoApi1.dll
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\bin\Debug\netcoreapp2.1\TodoApi1.pdb
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\obj\Debug\netcoreapp2.1\TodoTests.csprojAssemblyReference.cache
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\obj\Debug\netcoreapp2.1\TodoTests.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\obj\Debug\netcoreapp2.1\TodoTests.AssemblyInfoInputs.cache
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\obj\Debug\netcoreapp2.1\TodoTests.AssemblyInfo.cs
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\obj\Debug\netcoreapp2.1\TodoTests.csproj.CopyComplete
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\obj\Debug\netcoreapp2.1\TodoTests.dll
+C:\Users\Administrator\Downloads\todo-mvc-csharp-problem-swathi3260\TodoTests\obj\Debug\netcoreapp2.1\TodoTests.pdb

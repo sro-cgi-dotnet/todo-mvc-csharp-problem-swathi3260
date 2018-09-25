@@ -55,7 +55,7 @@ namespace TodoTests
 
         }
 
-        [Fact]
+        /*[Fact]
         public void GetAll_Negative_DatabaseError()
         {
             var datarepo = new Mock<IDbRepo>();
@@ -77,7 +77,7 @@ namespace TodoTests
             TodoController todoController = new TodoController(datarepo.Object);
             var result = todoController.Get(id);
             Assert.IsType<NotFoundObjectResult>(result);
-        }        
+        }     */   
 
      public void PostById_Positive_ReturnsCreated()
         {

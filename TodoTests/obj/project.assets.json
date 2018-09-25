@@ -170,7 +170,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.dll": {}
         }
       },
-      "Microsoft.AspNetCore.All/2.1.4": {
+      "Microsoft.AspNetCore.All/2.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "5.2.6",
@@ -276,16 +276,16 @@
           "Microsoft.CodeAnalysis.Razor": "2.1.2",
           "Microsoft.Data.Sqlite": "2.1.0",
           "Microsoft.Data.Sqlite.Core": "2.1.0",
-          "Microsoft.EntityFrameworkCore": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Analyzers": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Design": "2.1.3",
-          "Microsoft.EntityFrameworkCore.InMemory": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.1.3",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.3",
+          "Microsoft.EntityFrameworkCore": "2.1.2",
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.1.2",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.1.2",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.2",
+          "Microsoft.EntityFrameworkCore.InMemory": "2.1.2",
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.2",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.2",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.1.2",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.2",
           "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
           "Microsoft.Extensions.Caching.Memory": "2.1.2",
           "Microsoft.Extensions.Caching.Redis": "2.1.2",
@@ -331,8 +331,7 @@
           "Microsoft.Extensions.Primitives": "2.1.1",
           "Microsoft.Extensions.WebEncoders": "2.1.1",
           "Microsoft.Net.Http.Headers": "2.1.1",
-          "Microsoft.VisualStudio.Web.BrowserLink": "2.1.1",
-          "System.IO.Pipelines": "4.5.1"
+          "Microsoft.VisualStudio.Web.BrowserLink": "2.1.1"
         },
         "compile": {
           "lib/netcoreapp2.1/_._": {}
@@ -2076,10 +2075,10 @@
           "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.InMemory/2.1.3": {
+      "Microsoft.EntityFrameworkCore.InMemory/2.1.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.1.3"
+          "Microsoft.EntityFrameworkCore": "2.1.2"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
@@ -2126,10 +2125,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/2.1.3": {
+      "Microsoft.EntityFrameworkCore.SqlServer/2.1.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.3",
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.2",
           "System.Data.SqlClient": "4.5.1"
         },
         "compile": {
@@ -2139,10 +2138,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/2.1.3": {
+      "Microsoft.EntityFrameworkCore.Tools/2.1.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.1.3"
+          "Microsoft.EntityFrameworkCore.Design": "2.1.2"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -4450,7 +4449,7 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
-      "System.IO.Pipelines/4.5.1": {
+      "System.IO.Pipelines/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netstandard1.3/System.IO.Pipelines.dll": {}
@@ -5803,6 +5802,21 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "TodoApi1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "2.1.3",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.3",
+          "Microsoft.NETCore.App": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/TodoApi1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoApi1.dll": {}
+        }
       }
     }
   },
@@ -5944,16 +5958,16 @@
         "microsoft.aspnetcore.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.All/2.1.4": {
-      "sha512": "LvkKjV1DzJIKMnQehDASP9iNEg5hoSdJd+n3LfrFuspx4e0RYrHs0Eg60NNPdOMhu+jbqKR8RyoaPlJ2LzMYUA==",
+    "Microsoft.AspNetCore.All/2.1.3": {
+      "sha512": "sONJWvZ77mrokOESkW6BEIITAAZau4PRf+8F6nT4ZOeb94GYQbJzVFhH+UVdfquIjXtZE+/rF5SicQnvKznEmA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.all/2.1.4",
+      "path": "microsoft.aspnetcore.all/2.1.3",
       "files": [
         ".signature.p7s",
         "build/netcoreapp2.1/Microsoft.AspNetCore.All.props",
         "build/netcoreapp2.1/Microsoft.AspNetCore.All.targets",
         "lib/netcoreapp2.1/_._",
-        "microsoft.aspnetcore.all.2.1.4.nupkg.sha512",
+        "microsoft.aspnetcore.all.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.all.nuspec"
       ]
     },
@@ -7597,15 +7611,15 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.InMemory/2.1.3": {
-      "sha512": "uCWEL181rJ9r+AFEF/FGI+gLq4ogZNry5xp3BedInRvu/fmJDMOOQSU0V/c1yDBVMAwYucr4aGfw3keQ+qfaAg==",
+    "Microsoft.EntityFrameworkCore.InMemory/2.1.2": {
+      "sha512": "MLR71xMIrz2Gspul4a2P7q3x763hIyVg3f3oYPFx03/d0pKTgPd1U06R2nKvus6P54xgTh5t7gckEimffgZh6g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.inmemory/2.1.3",
+      "path": "microsoft.entityframeworkcore.inmemory/2.1.2",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
-        "microsoft.entityframeworkcore.inmemory.2.1.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.2.1.2.nupkg.sha512",
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
@@ -7644,26 +7658,26 @@
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/2.1.3": {
-      "sha512": "tzHNmC5Gi3tO5aYHLWycJ3p5eQ23uxpsoCGyRmvMAN2E75cPNm60rNzy++N8fXWWi0ywlnYmi6kT5xLudFGmYA==",
+    "Microsoft.EntityFrameworkCore.SqlServer/2.1.2": {
+      "sha512": "ztryNz3AT0QGZPVSOY8UD5OCj1KpYFgJTt13UbvyhsxY2ewe8af9z+vAu1zs8OIrd+BMpncLUfVvrNJS+5azRg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/2.1.3",
+      "path": "microsoft.entityframeworkcore.sqlserver/2.1.2",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.2.1.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.2.1.2.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/2.1.3": {
-      "sha512": "GSpBdnljJfvV5BpWcHEzlFJWQhZrHrZHgtA1BHMLlUD2mLfgW1J3vzDmNS7yVyGPhLc+aJAGujve85unzvPgaQ==",
+    "Microsoft.EntityFrameworkCore.Tools/2.1.2": {
+      "sha512": "jKSi2mmZogfzMcjbCSxt5f89lvbM/35MjfoZUZWaRaqbAgzcQfT37knZXgUXLnTIVcI1k/i2o2t/ZPofGSfwyQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/2.1.3",
+      "path": "microsoft.entityframeworkcore.tools/2.1.2",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.tools.2.1.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.2.1.2.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PowerShell2.psd1",
         "tools/EntityFrameworkCore.PowerShell2.psm1",
@@ -11372,10 +11386,10 @@
         "system.io.filesystem.primitives.nuspec"
       ]
     },
-    "System.IO.Pipelines/4.5.1": {
-      "sha512": "o2i4j7WotG7K1BZlOW9iPjyfOrZEU7WRO/l1Chj1CVjV9U7XUqDciv1NQ21Wu8saIchin+aM6DzayH/M0ONcFg==",
+    "System.IO.Pipelines/4.5.0": {
+      "sha512": "Kq9eZWVKN9khHhkatLWLLxYCs3j9qSNMZELqn2YG1YsCMv6bPmAtaN0CfA6l7vxFbiV02C996Dy7yHO8DkaJLg==",
       "type": "package",
-      "path": "system.io.pipelines/4.5.1",
+      "path": "system.io.pipelines/4.5.0",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
@@ -11387,7 +11401,7 @@
         "lib/netstandard2.0/System.IO.Pipelines.dll",
         "lib/netstandard2.0/System.IO.Pipelines.xml",
         "ref/netstandard1.3/System.IO.Pipelines.dll",
-        "system.io.pipelines.4.5.1.nupkg.sha512",
+        "system.io.pipelines.4.5.0.nupkg.sha512",
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -14874,14 +14888,20 @@
         "xunit.runner.visualstudio.2.3.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "TodoApi1/1.0.0": {
+      "type": "project",
+      "path": "../TodoApi/TodoApi1.csproj",
+      "msbuildProject": "../TodoApi/TodoApi1.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.AspNetCore.All >= 2.1.4",
+      "Microsoft.AspNetCore.All >= 2.1.3",
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "Moq >= 4.10.0",
+      "TodoApi1 >= 1.0.0",
       "xunit >= 2.3.1",
       "xunit.runner.visualstudio >= 2.3.1"
     ]
@@ -14893,11 +14913,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoTests\\TodoTests.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoTests\\TodoTests.csproj",
       "projectName": "TodoTests",
-      "projectPath": "c:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoTests\\TodoTests.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoTests\\TodoTests.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoTests\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14915,7 +14935,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoApi\\TodoApi1.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Downloads\\todo-mvc-csharp-problem-swathi3260\\TodoApi\\TodoApi1.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -14929,7 +14953,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "[2.1.4, )"
+            "version": "[2.1.3, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
